@@ -13,13 +13,16 @@
 		"name": "Yannis Richard",
 		"email": "yannisrichard63@gmail.com"
 	}],
+	"engine": {
+		"node": "0.10.x"
+	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/IUT/UrlShortner"
+		"url": "https://github.com/yannisrichard/JS-Project"
 	},
 	"scripts": {
 		"start" : "node ./bin/www",
-		"dev": "DEBUG=JS-Project supervisor ./bin/www",
+		"dev": "DEBUG=UrlShortner supervisor ./bin/www",
 		"release": "node ./bin/www"
 	},
 	"dependencies": {
