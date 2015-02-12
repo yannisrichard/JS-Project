@@ -17,9 +17,9 @@
     <script src="/socket.io/socket.io.js"></script>
     <script>
         //var socket = io.connect('http://localhost:{{port}}');
-        //(window.location.protocol + '//' + window.location.hostname + ':' + window.location.port);
-
-        var socket = io.connect(window.location.hostname+':{{port}}');        
+        //(window.location.protocol + '//' + window.location.hostname + ':' + window.location.port);		
+        var socket = io.connect(window.location.protocol + '//' + window.location.hostname + ':' + window.location.port); 
+               
         socket.on('message', function(data) {
             addShortenUrl(data.url, data.shortenUrl);
 
