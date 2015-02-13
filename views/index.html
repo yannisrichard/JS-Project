@@ -35,7 +35,7 @@
         };
 
         function addShortenUrl(url, shortenUrl) {
-            document.getElementById('result').innerHTML += '<div class="elem">' + url + ' => <form method="post" action="' + shortenUrl + '" onsubmit="return count(\'' + url + '\')"><input type="submit" value="' + shortenUrl +'"/></form></div>';
+            document.getElementById('result').innerHTML += '<div class="elem">' + url + ' => <form target="_blank" method="post" action="' + shortenUrl + '" onsubmit="return count(\'' + url + '\')"><input type="submit" value="' + shortenUrl +'"/></form></div>';
         };
 
         function count(elem) {
