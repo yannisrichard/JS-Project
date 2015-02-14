@@ -30,6 +30,8 @@ Run this command to to configure the application port :
 ``` bash
 $ PORT=1337 npm start
 ```
+Credits
+------------
 
 Realised by **[Yannis RICHARD](https://github.com/yannisrichard/) and **[Nicolas BASCON](https://github.com/nicobascon).
 
