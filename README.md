@@ -33,11 +33,13 @@ $ PORT=1337 npm start
 Credits
 ------------
 
-Realised by **[Yannis RICHARD](https://github.com/yannisrichard/) and **[Nicolas BASCON](https://github.com/nicobascon).
+Realised by *[Yannis RICHARD](https://github.com/yannisrichard/) and *[Nicolas BASCON](https://github.com/nicobascon).
 
 Based on http://edu.muetton.me/practicals/06-project.html written by [Julien Muetton](https://github.com/themouette)
 
-Deployed on Heroku : https://projetjs-urlshort.herokuapp.com/
+Deployed on Heroku : 
 
-					 https://projetjs-urlshort.herokuapp.com/admin/
+		https://projetjs-urlshort.herokuapp.com/
+
+		https://projetjs-urlshort.herokuapp.com/admin/
 
